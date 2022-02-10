@@ -23,7 +23,7 @@ document.addEventListener("keypress", function(event) {
 function makeSound(key) {
     switch (key) {
         case "q":
-                var keyC = new Audio('sounds/Piano/C-Key.wav');s
+                var keyC = new Audio('sounds/Piano/C-Key.wav');
                 keyC.preload = 'auto';
                 keyC.play();
             break;
