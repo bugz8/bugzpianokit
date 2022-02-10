@@ -33,6 +33,12 @@ footer {
   background-image: url("images/pianoE.png");
 }
 
+a, button, .myelements
+{
+	-ms-touch-action: manipulation;	/* IE10  */
+	touch-action: manipulation;		/* IE11+ */
+}
+
 .r {
   background-image: url("images/pianoF.png");
 }
